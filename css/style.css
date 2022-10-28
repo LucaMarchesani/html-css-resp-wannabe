@@ -127,13 +127,19 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+/* Dekstop */
+
+@media screen and (min-width: 1903px) {
+
+    
+}
 
 /* Tablet */
 
 @media screen and (max-width: 768px){
 
     .container {
-        width: 768px;
+        width: 100%;
     }
 }
 
@@ -142,7 +148,7 @@ img {
 @media screen and (max-width: 480px) {
     
     .container {
-        width: 480px;
+        width: 100%;
     }
 
     .row{
@@ -158,8 +164,7 @@ img {
     }
     
     .lessons .col img {
-        height: 100%;
-        margin-top: 1rem;
+        width: 100%;
     }
 
     .why-us .col-left {
@@ -168,6 +173,10 @@ img {
     
     .why-us .col-right {
         width: 100%;
+    }
+
+    p{
+        margin-bottom: 3rem;
     }
 }
 
