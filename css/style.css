@@ -127,3 +127,48 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+/* Tablet */
+
+@media screen and (max-width: 768px){
+
+    .container {
+        width: 768px;
+    }
+}
+
+/* Mobile */
+
+@media screen and (max-width: 480px) {
+    
+    .container {
+        width: 480px;
+    }
+
+    .row{
+        display: block;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+    
+    .lessons .col img {
+        height: 100%;
+        margin-top: 1rem;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+    }
+    
+    .why-us .col-right {
+        width: 100%;
+    }
+}
+
+
